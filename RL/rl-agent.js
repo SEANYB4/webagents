@@ -46,6 +46,7 @@ class RLAgent {
         const newQ = currentQ + this.alpha * (reward + this.gamma * maxQNext - currentQ);
         this.setQ(state, action, newQ);
 
+        console.log(this.qTable);
 
     }
 

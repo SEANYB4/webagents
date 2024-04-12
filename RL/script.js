@@ -208,7 +208,6 @@ class Game {
 
         // No change in distance, provide a neutral reward
         return 0;
-
     }
 
 
